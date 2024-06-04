@@ -1,0 +1,89 @@
+.clothing {
+    margin: 0 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.part1 img {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+    top: 0px;
+}
+
+.home-items li {
+    font-size: 20px;
+    margin: 20px;
+    display: inline-flex;
+}
+
+.part2 {
+    display: flex;
+}
+
+.part2 img {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    right: 35px;
+    top: 6px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.maincards {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+
+}
+
+.card1 {
+    border: 1px solid black;
+    border: none;
+    height: 400px;
+    width: 750px;
+    font-size: x-large;
+}
+
+h1 {
+    color: rgb(9, 133, 118);
+}
+
+.picture {
+    border: 1px solid black;
+    border: none;
+    height: 400px;
+    width: 750px;
+    background-size: cover;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    border: 2px solid rgb(9, 133, 118);
+    border-radius: 3px;
+    background-color: rgb(9, 133, 118);
+    color: white;
+}
+
+button:hover {
+    border: 2px solid rgb(9, 133, 118);
+    border-radius: 3px;
+    background-color: white;
+    color: rgb(9, 133, 118);
+}
