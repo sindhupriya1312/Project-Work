@@ -75,7 +75,7 @@ nav {
     margin: 60px 0;
 }
 
-button {
+.card1 button {
     height: 40px;
     width: 100px;
     border: 2px solid rgb(9, 133, 118);
@@ -84,22 +84,24 @@ button {
     color: white;
 }
 
-button:hover {
+.card1 button:hover {
     border: 2px solid rgb(9, 133, 118);
     border-radius: 3px;
     background-color: white;
     color: rgb(9, 133, 118);
 }
-.popular_Categories{
+
+.popular_Categories {
     margin: 40px 0;
     display: flex;
     border: 1px solid black;
     border: none;
     height: 350px;
     width: 100%;
-   
+
 }
-.small_cards{
+
+.small_cards {
     border-radius: 10px;
     border: 1px solid lightgreen;
     height: 250px;
@@ -107,13 +109,300 @@ button:hover {
     padding: 5px 5px;
     margin: 0 10px;
     justify-content: space-evenly;
-   
+
 }
-.small_cards img{
+
+.small_cards img {
     border-radius: 10px;
     height: 200px;
     width: 200px;
 }
-.small_cards p{
+
+.small_cards p {
     text-align: center;
+}
+
+.featured_buttons button{
+    border: 1px solid ;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    font-size: 18px;
+    height: 50px;
+    width: 120px;
+}
+.featured_buttons button:hover{
+    border: 1px solid bisque;
+    background-color: bisque;
+    border-radius: 3px;
+    color: rgb(9, 133, 118);
+    font-size: 18px;
+    height: 50px;
+    width: 120px;
+}
+
+.clothing_cards {
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border: none;
+    width: 100%;
+    height: 1000px;
+}
+
+.products {
+    border: 1px solid lightgreen;
+    border-radius: 13px;
+    height: 400px;
+    width: 294px;
+    padding: 20px;
+    margin: 10px 10px;
+}
+.img-1 {
+    background-image: url(/assets/images/Copy\ of\ product-1-1.jpg);
+    height: 250px;
+    padding: 5px;
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+
+.products:hover .img-1 {
+    background-image: url(/assets/images/Copy\ of\ product-1-2.jpg);
+    transition: all 2s linear;
+}
+
+.img-2 {
+    background-image: url(/assets/images/Copy\ of\ product-2-1.jpg);
+    height: 250px;
+    padding: 5px;
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+
+.products:hover .img-2 {
+    background-image: url(/assets/images/Copy\ of\ product-2-2.jpg);
+    transition: all 2s linear;
+}
+
+.img-3 {
+    background-image: url(/assets/images/Copy\ of\ product-3-1.jpg);
+    height: 250px;
+    padding: 5px;
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+
+.products:hover .img-3 {
+    background-image: url(/assets/images/Copy\ of\ product-3-2.jpg);
+    transition: all 2s linear;
+}
+
+.img-4 {
+    background-image: url(/assets/images/Copy\ of\ product-4-1.jpg);
+    height: 250px;
+    padding: 5px;
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+
+.products:hover .img-4 {
+    background-image: url(/assets/images/Copy\ of\ product-4-2.jpg);
+    transition: all 2s linear;
+}
+
+.img-5 {
+    background-image: url(/assets/images/Copy\ of\ product-5-1.jpg);
+    height: 250px;
+    padding: 5px;
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+
+.products:hover .img-5 {
+    background-image: url(/assets/images/Copy\ of\ product-5-2.jpg);
+    transition: all 2s linear;
+}
+
+.img-6 {
+    background-image: url(/assets/images/Copy\ of\ product-6-1.jpg);
+    height: 250px;
+    padding: 5px;
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+
+.products:hover .img-6 {
+    background-image: url(/assets/images/Copy\ of\ product-6-2.jpg);
+    transition: all 2s linear;
+}
+
+.img-7 {
+    background-image: url(/assets/images/Copy\ of\ product-7-1.jpg);
+    height: 250px;
+    padding: 5px;
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+
+.products:hover .img-7 {
+    background-image: url(/assets/images/Copy\ of\ product-7-2.jpg);
+    transition: all 2s linear;
+}
+
+.img-8 {
+    background-image: url(/assets/images/Copy\ of\ product-8-1.jpg);
+    height: 250px;
+    padding: 5px;
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+
+.products:hover .img-8 {
+    background-image: url(/assets/images/Copy\ of\ product-8-2.jpg);
+    transition: all 2s linear;
+}
+
+.hot_Btn_1 button {
+    height: 25px;
+    width: 45px;
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+    margin: 0 10px;
+    background-color: rgb(252, 110, 157);
+    color: white;
+    border: none;
+}
+
+.hot_Btn_2 button {
+    height: 25px;
+    width: 45px;
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+    margin: 0 10px;
+    background-color: rgba(32, 172, 137, 0.6);
+    color: white;
+    border: none;
+}
+
+.hot_Btn_3 button {
+    height: 25px;
+    width: 45px;
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+    margin: 0 10px;
+    background-color: rgb(227, 146, 61);
+    color: white;
+    border: none;
+}
+
+.hot_Btn_4 button {
+    height: 25px;
+    width: 45px;
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+    margin: 0 10px;
+    background-color: rgba(63, 136, 225, 0.736);
+    color: white;
+    border: none;
+}
+
+.hot_Btn_5 button {
+    height: 25px;
+    width: 45px;
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+    margin: 0 10px;
+    background-color: rgba(63, 136, 225, 0.736);
+    color: white;
+    border: none;
+}
+
+.hot_Btn_6 button {
+    height: 25px;
+    width: 45px;
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+    margin: 0 10px;
+    background-color: rgba(63, 136, 225, 0.736);
+    color: white;
+    border: none;
+}
+
+.hot_Btn_7 button {
+    height: 25px;
+    width: 45px;
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+    margin: 0 10px;
+    background-color: rgba(32, 172, 137, 0.6);
+    color: white;
+    border: none;
+}
+
+.products img {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    bottom: 70px;
+    left: 260px;
+}
+.bg_images{
+    display: flex;
+    border: 1px solid;
+    border: none;
+    height: 515px;
+    width: 100%;
+    margin: 40px 0;
+}
+.bg_img_1{
+    background-image: url(/assets/images/Copy\ of\ deals-1.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 700px;
+    padding: 20px;
+}
+.bg_img_1 button{
+    height: 40px;
+    width: 100px;
+    border: 2px solid rgb(9, 133, 118);
+    border-radius: 3px;
+    background-color: rgb(9, 133, 118);
+    color: white;
+}
+
+.bg_img_1 button:hover {
+    border: 2px solid rgb(9, 133, 118);
+    border-radius: 3px;
+    background-color: white;
+    color: rgb(9, 133, 118);
+}
+.bg_img_2{
+    background-image: url(/assets/images/Copy\ of\ deals-2.png);
+    background-repeat: no-repeat;
+    height: 473px;
+    width: 700px;
+    padding: 20px;
+}
+.bg_img_2 button{
+    height: 40px;
+    width: 100px;
+    border: 2px solid rgb(9, 133, 118);
+    border-radius: 3px;
+    background-color: rgb(9, 133, 118);
+    color: white;
+}
+
+.bg_img_2 button:hover {
+    border: 2px solid rgb(9, 133, 118);
+    border-radius: 3px;
+    background-color: white;
+    color: rgb(9, 133, 118);
 }
