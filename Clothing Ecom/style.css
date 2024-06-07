@@ -1,7 +1,8 @@
 .clothing {
     margin: 0 40px;
 }
-.head_line{
+
+.head_line {
     border: 1px solid black;
     border: none;
     height: 45px;
@@ -27,7 +28,8 @@ nav {
     left: 10px;
     top: 70px;
 }
-.part2 input{
+
+.part2 input {
     position: relative;
     left: 100px;
 }
@@ -138,8 +140,8 @@ nav {
     text-align: center;
 }
 
-.featured_buttons button{
-    border: 1px solid ;
+.featured_buttons button {
+    border: 1px solid;
     border: none;
     border-radius: 3px;
     color: black;
@@ -147,7 +149,8 @@ nav {
     height: 50px;
     width: 120px;
 }
-.featured_buttons button:hover{
+
+.featured_buttons button:hover {
     border: 1px solid bisque;
     background-color: bisque;
     border-radius: 3px;
@@ -164,7 +167,7 @@ nav {
     border: 1px solid black;
     border: none;
     width: 100%;
-    height: 1000px;
+    height: auto;
 }
 
 .clothing_cards_2 {
@@ -186,14 +189,16 @@ nav {
     padding: 20px;
     margin: 10px 10px;
 }
-.products2{
+
+.products2 {
     border: 1px solid lightgreen;
     border-radius: 13px;
     height: 400px;
     width: 294px;
     padding: 20px;
-    margin: 20px 20px; 
+    margin: 20px 20px;
 }
+
 .img-1 {
     background-image: url(/assets/images/Copy\ of\ product-1-1.jpg);
     height: 250px;
@@ -382,7 +387,7 @@ nav {
     border: none;
 }
 
-.small_cart_icon{
+.small_cart_icon {
     border: 1px solid lightgreen;
     border-radius: 50%;
     background-color: rgb(234, 255, 234);
@@ -393,35 +398,39 @@ nav {
     bottom: 80px;
     left: 230px;
 }
-.small_cart_icon img{
+
+.small_cart_icon img {
     position: absolute;
-  bottom: 11px;
+    bottom: 11px;
     height: 20px;
     width: 20px;
 }
-.bg_images{
+
+.bg_images {
     display: flex;
     border: 1px solid;
     border: none;
-    height: 415px;
+    height: auto;
     width: 100%;
-    margin: 80px 0;
+    margin: 40px 0;
 }
-.bg_img_1{
+
+.bg_img_1 {
     background-image: url(/assets/images/Copy\ of\ deals-1.jpg);
     background-repeat: no-repeat;
     height: 440px;
     width: 700px;
     padding: 20px;
 }
-.bg_img_1 button{
+
+.bg_img_1 button {
     height: 40px;
     width: 100px;
     border: 2px solid rgb(9, 133, 118);
     border-radius: 3px;
-    background-color:rgb(230, 247, 245);
+    background-color: rgb(230, 247, 245);
     color: rgb(9, 133, 118);
-   
+
 }
 
 .bg_img_1 button:hover {
@@ -430,21 +439,23 @@ nav {
     background-color: rgb(9, 133, 118);
     color: white;
 }
-.bg_img_2{
+
+.bg_img_2 {
     background-image: url(/assets/images/Copy\ of\ deals-2.png);
     background-repeat: no-repeat;
     height: 440px;
     width: 700px;
     padding: 20px;
 }
-.bg_img_2 button{
+
+.bg_img_2 button {
     height: 40px;
     width: 100px;
     border: 2px solid rgb(9, 133, 118);
     border-radius: 3px;
-    background-color:rgb(230, 247, 245);
+    background-color: rgb(230, 247, 245);
     color: rgb(9, 133, 118);
-   
+
 }
 
 .bg_img_2 button:hover {
@@ -454,9 +465,9 @@ nav {
     color: white;
 }
 
-.timer li{
+.timer li {
     display: inline-flex;
-    background-color: rgb(9, 133, 118) ;
+    background-color: rgb(9, 133, 118);
     color: white;
     list-style: none;
     padding: 0%;
@@ -468,51 +479,101 @@ nav {
     align-items: center;
     justify-content: center;
 }
-.timer_para{
+
+.timer_para {
     display: flex;
     gap: 33px;
 }
-.showcase_images img{
-   border: 1px solid black;
-   border: none;
-   height: 100px;
-   width: 100px;
-   margin: 20px 0;
+
+.showcase_images img {
+    border: 1px solid black;
+    border: none;
+    height: 100px;
+    width: 100px;
+    margin: 20px 0;
 }
-.showcase_images{
+
+.showcase_images {
     display: flex;
 }
-.showcase_images p{
+
+.showcase_images p {
     display: flex;
-   
+
 }
-.outlets_1{
-    border: 1px solid black;
-    border: none;
-    margin: 0 15px;
-}
-.outlets_2{
-    border: 1px solid black;
-    border: none;
-    margin: 0 15px;
-}
-.outlets_3{
-    border: 1px solid black;
-    border: none;
-    margin: 0 15px;
-}
-.outlets_4{
+
+.outlets_1 {
     border: 1px solid black;
     border: none;
     margin: 0 15px;
 }
 
-.oulets_cards{
+.outlets_2 {
+    border: 1px solid black;
+    border: none;
+    margin: 0 15px;
+}
+
+.outlets_3 {
+    border: 1px solid black;
+    border: none;
+    margin: 0 15px;
+}
+
+.outlets_4 {
+    border: 1px solid black;
+    border: none;
+    margin: 0 15px;
+}
+
+.oulets_cards {
     display: flex;
     margin: 30px 0;
 }
-.outlet_para p{
+
+.outlet_para p {
     display: inline-flex;
     margin: 20px 10px;
     padding: 0%;
+}
+
+.email_details {
+    border: 1px solid black;
+    border: none;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 30px 0;
+    background-color: rgb(132, 189, 182);
+}
+
+.email_details img {
+    height: 50px;
+    width: 50px;
+}
+
+input {
+    padding: 0 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 400px;
+    font-size: 16px;
+    position: relative;
+    left: 134px;
+}
+
+.email_details button {
+    height: 40px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin: 0 20px;
+    position: relative;
+    left: 50px;
 }
