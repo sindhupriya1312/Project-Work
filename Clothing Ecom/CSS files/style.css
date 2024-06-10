@@ -30,7 +30,7 @@
       width: 150px;
       position: absolute;
       left: 10px;
-      top: 50px;
+      top: 60px;
   }
 
   .search_for_items input {
@@ -600,11 +600,6 @@
   }
 
   .bg_img_1 {
-      /* background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ deals-1.png);
-    background-repeat: no-repeat;
-    height: 440px;
-    width: 700px;
-    padding: 20px; */
       background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ deals-1.jpg);
       background-repeat: no-repeat;
       height: 440px;
@@ -814,7 +809,6 @@
       height: 30px;
       width: 30px;
       transform: rotate(360deg);
-      /* transform: rotate(-360deg); */
       transition: all 1s linear;
   }
 
@@ -914,7 +908,7 @@
   /* login page style 'ENDS' here */
 
 
-  /* y account style 'STARTS' here */
+  /* my account style 'STARTS' here */
   .account_page {
       display: flex;
       margin: 40px;
@@ -951,3 +945,28 @@
   }
 
   /* my account page style 'ENDS' here */
+
+
+  /* compare page style 'STARTS' here */
+
+  td{
+    border: 1px solid rgb(245, 226, 202);
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .compare_table img{
+    height: 350px;
+    width: 390px;
+    padding: 5px;
+  }
+  .compare_table button{
+    border: 1px solid black;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(9, 133, 118);
+    color: white;
+    height: 35px;
+    width: 100px;
+  }
+  /* compare page style 'ENDS' here */
