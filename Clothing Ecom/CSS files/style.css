@@ -1,732 +1,953 @@
-  
   /* home page style 'STARTS' here */
 
+  .clothing {
+      margin: 0 40px;
+  }
 
-.clothing {
-    margin: 0 40px;
-}
+  .head_line {
+      background-color: rgb(217, 252, 232);
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+  }
 
-.head_line {
-    background-color: rgb(217, 252, 232);
-    width: 100%;
-    height: 30px;
-    display: flex;
-    justify-content: space-between;
-}
+  .head_line_1 {
+      display: flex;
+      gap: 20px;
+  }
 
-.head_line_1 {
-    display: flex;
-    gap: 20px;
-}
+  nav {
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      align-items: center;
+      margin: 30px 0;
+  }
 
-nav {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+  .part1 img {
+      height: 130px;
+      width: 150px;
+      position: absolute;
+      left: 10px;
+      top: 50px;
+  }
+
+  .search_for_items input {
+      border: 1px solid rgb(220, 220, 220);
+      position: relative;
+      left: 100px;
+  }
+
+  .home-items li {
+      font-size: 20px;
+      margin: 20px;
+      display: inline-flex;
+      list-style: none;
+  }
+
+  .home-items a {
+      text-decoration: none;
+      color: black;
+  }
+
+  .part2 {
+      display: flex;
+  }
+
+  .part2 img {
+      height: 30px;
+      width: 30px;
+      position: relative;
+      left: 50px;
+      top: 6px;
+  }
+
+  .icons {
+      display: flex;
+      gap: 10px;
+      height: 30px;
+      width: 30px;
+      position: relative;
+      left: 25px;
+  }
+
+  .maincards {
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      align-items: center;
+
+  }
+
+  .card1 {
+      border: 1px solid black;
+      border: none;
+      height: 400px;
+      width: 750px;
+      font-size: x-large;
+      margin: 60px 0;
+  }
+
+  .card1 span {
+      font-size: 100px;
+      color: rgb(9, 133, 118);
+  }
+
+  .picture {
+      border: 1px solid black;
+      border: none;
+      height: 400px;
+      width: 750px;
+      background-size: cover;
+      margin: 60px 0;
+  }
+
+  .card1 button {
+      height: 40px;
+      width: 100px;
+      border: 2px solid rgb(9, 133, 118);
+      border-radius: 3px;
+      background-color: rgb(9, 133, 118);
+      color: white;
+  }
+
+  .card1 button:hover {
+      border: 2px solid rgb(9, 133, 118);
+      border-radius: 3px;
+      background-color: white;
+      color: rgb(9, 133, 118);
+  }
+
+  .popular_Categories {
+      margin: 40px 0;
+      display: flex;
+      border: 1px solid black;
+      border: none;
+      height: 262px;
+      width: 100%;
+
+  }
+
+  .small_cards {
+      border-radius: 15px;
+      border: 1px solid lightgreen;
+      height: 260px;
+      width: 220px;
+      padding: 5px;
+      margin: 0 10px;
+      justify-content: space-evenly;
+
+  }
+
+  .small_cards img {
+      border-radius: 15px;
+      padding: 5px;
+      height: 200px;
+      width: 200px;
+  }
+
+  .small_cards p {
+      text-align: center;
+  }
+
+  .featured_buttons button {
+      border: 1px solid;
+      border: none;
+      border-radius: 3px;
+      color: black;
+      font-size: 18px;
+      height: 50px;
+      width: 120px;
+  }
+
+  .featured_buttons button:hover {
+      border: 1px solid bisque;
+      background-color: bisque;
+      border-radius: 3px;
+      color: rgb(9, 133, 118);
+      font-size: 18px;
+      height: 50px;
+      width: 120px;
+  }
+
+  .clothing_cards {
+      margin: 30px 0;
+      display: flex;
+      flex-wrap: wrap;
+      border: 1px solid black;
+      border: none;
+      width: 100%;
+      height: auto;
+  }
+
+  .clothing_cards_2 {
+      margin: 10px 0;
+      display: flex;
+      flex-wrap: wrap;
+      border: 1px solid black;
+      border: none;
+      width: 100%;
+      height: auto;
+  }
+
+
+  .products {
+      border: 1px solid lightgreen;
+      border-radius: 13px;
+      height: 400px;
+      width: 294px;
+      padding: 20px;
+      margin: 10px 10px;
+  }
+
+  .products2 {
+      border: 1px solid lightgreen;
+      border-radius: 13px;
+      height: 400px;
+      width: 294px;
+      padding: 20px;
+      margin: 20px 20px;
+  }
+
+  .img-1 {
+      background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-1-1.jpg);
+      height: 250px;
+      padding: 5px;
+      background-size: 100% 100%;
+      border-radius: 10px;
+  }
+
+  .products:hover .img-1 {
+      background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-1-2.jpg);
+      transition: all 3s linear;
+  }
+
+  .img-2 {
+      background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-2-1.jpg);
+      height: 250px;
+      padding: 5px;
+      background-size: 100% 100%;
+      border-radius: 10px;
+  }
+
+  .products:hover .img-2 {
+      background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-2-2.jpg);
+      transition: all 3s linear;
+  }
+
+  .img-3 {
+      background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-3-1.jpg);
+      height: 250px;
+      padding: 5px;
+      background-size: 100% 100%;
+      border-radius: 10px;
+  }
+
+  .products:hover .img-3 {
+      background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-3-2.jpg);
+      transition: all 3s linear;
+  }
+
+  .img-4 {
+      background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-4-1.jpg);
+      height: 250px;
+      padding: 5px;
+      background-size: 100% 100%;
+      border-radius: 10px;
+  }
+
+  .products:hover .img-4 {
+      background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-4-2.jpg);
+      transition: all 3s linear;
+  }
+
+  .img-5 {
+      background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-5-1.jpg);
+      height: 250px;
+      padding: 5px;
+      background-size: 100% 100%;
+      border-radius: 10px;
+  }
+
+  .products:hover .img-5 {
+      background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-5-2.jpg);
+      transition: all 3s linear;
+  }
+
+  .img-6 {
+      background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-6-1.jpg);
+      height: 250px;
+      padding: 5px;
+      background-size: 100% 100%;
+      border-radius: 10px;
+  }
+
+  .products:hover .img-6 {
+      background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-6-2.jpg);
+      transition: all 3s linear;
+  }
+
+  .img-7 {
+      background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-7-1.jpg);
+      height: 250px;
+      padding: 5px;
+      background-size: 100% 100%;
+      border-radius: 10px;
+  }
+
+  .products:hover .img-7 {
+      background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-7-2.jpg);
+      transition: all 3s linear;
+  }
+
+  .img-8 {
+      background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-8-1.jpg);
+      height: 250px;
+      padding: 5px;
+      background-size: 100% 100%;
+      border-radius: 10px;
+  }
+
+  .products:hover .img-8 {
+      background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-8-2.jpg);
+      transition: all 3s linear;
+  }
+
+  .img-9 {
+      background-image: url(../assets/images/Copy\ of\ product-9-1.jpg);
+      height: 250px;
+      padding: 5px;
+      background-size: 100% 100%;
+      border-radius: 10px;
+  }
+
+  .products:hover .img-9 {
+      background-image: url(../assets/images/Copy\ of\ product-9-2.jpg);
+      transition: all 3s linear;
+  }
+
+  .img-10 {
+      background-image: url(../assets/images/Copy\ of\ product-10-1.jpg);
+      height: 250px;
+      padding: 5px;
+      background-size: 100% 100%;
+      border-radius: 10px;
+  }
+
+  .products:hover .img-10 {
+      background-image: url(../assets/images/Copy\ of\ product-10-2.jpg);
+      transition: all 3s linear;
+  }
+
+  .img-11 {
+      background-image: url(../assets/images/Copy\ of\ product-11-1.jpg);
+      height: 250px;
+      padding: 5px;
+      background-size: 100% 100%;
+      border-radius: 10px;
+  }
+
+  .products:hover .img-11 {
+      background-image: url(../assets/images/Copy\ of\ product-11-2.jpg);
+      transition: all 3s linear;
+  }
+
+  .img-12 {
+      background-image: url(../assets/images/Copy\ of\ product-12-1.jpg);
+      height: 250px;
+      padding: 5px;
+      background-size: 100% 100%;
+      border-radius: 10px;
+  }
+
+  .products:hover .img-12 {
+      background-image: url(../assets/images/Copy\ of\ product-12-2.jpg);
+      transition: all 3s linear;
+  }
+
+  .hot_Btn_1 button {
+      height: 25px;
+      width: 45px;
+      border-radius: 50px;
+      position: relative;
+      top: 10px;
+      margin: 0 10px;
+      background-color: rgb(252, 110, 157);
+      color: white;
+      border: none;
+  }
+
+  .hot_Btn_2 button {
+      height: 25px;
+      width: 45px;
+      border-radius: 50px;
+      position: relative;
+      top: 10px;
+      margin: 0 10px;
+      background-color: rgba(32, 172, 137, 0.6);
+      color: white;
+      border: none;
+  }
+
+  .hot_Btn_3 button {
+      height: 25px;
+      width: 45px;
+      border-radius: 50px;
+      position: relative;
+      top: 10px;
+      margin: 0 10px;
+      background-color: rgb(227, 146, 61);
+      color: white;
+      border: none;
+  }
+
+  .hot_Btn_4 button {
+      height: 25px;
+      width: 45px;
+      border-radius: 50px;
+      position: relative;
+      top: 10px;
+      margin: 0 10px;
+      background-color: rgba(63, 136, 225, 0.736);
+      color: white;
+      border: none;
+  }
+
+  .hot_Btn_5 button {
+      height: 25px;
+      width: 45px;
+      border-radius: 50px;
+      position: relative;
+      top: 10px;
+      margin: 0 10px;
+      background-color: rgba(63, 136, 225, 0.736);
+      color: white;
+      border: none;
+  }
+
+  .hot_Btn_6 button {
+      height: 25px;
+      width: 45px;
+      border-radius: 50px;
+      position: relative;
+      top: 10px;
+      margin: 0 10px;
+      background-color: rgba(63, 136, 225, 0.736);
+      color: white;
+      border: none;
+  }
+
+  .hot_Btn_7 button {
+      height: 25px;
+      width: 45px;
+      border-radius: 50px;
+      position: relative;
+      top: 10px;
+      margin: 0 10px;
+      background-color: rgba(32, 172, 137, 0.6);
+      color: white;
+      border: none;
+  }
+
+  .hot_Btn_9 button {
+      height: 25px;
+      width: 45px;
+      border-radius: 50px;
+      position: relative;
+      top: 10px;
+      margin: 0 10px;
+      background-color: rgba(63, 136, 225, 0.736);
+      color: white;
+      border: none;
+  }
+
+  .hot_Btn_10 button {
+      height: 25px;
+      width: 45px;
+      border-radius: 50px;
+      position: relative;
+      top: 10px;
+      margin: 0 10px;
+      background-color: rgb(252, 110, 157);
+      color: white;
+      border: none;
+  }
+
+  .hot_Btn_11 button {
+      height: 25px;
+      width: 45px;
+      border-radius: 50px;
+      position: relative;
+      top: 10px;
+      margin: 0 10px;
+      background-color: rgb(252, 110, 157);
+      color: white;
+      border: none;
+  }
+  .more_options{
     align-items: center;
-    margin: 30px 0;
-}
+    justify-content: center;
+    margin:0 600px ;
+  }
 
-.part1 img {
-    height: 130px;
-    width: 150px;
-    position: absolute;
-    left: 10px;
-    top: 50px;
-}
+  .more_options li {
+      list-style: none;
+      display: inline-flex;
+      border: 1px solid black;
+      border-radius: 3px;
+      border: none;
+      height: 30px;
+      width: 30px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+      background-color:white;
+      color:black;
+      gap: 20px;
+  }
+   
+   .list_1:hover {
+    list-style: none;
+      display: inline-flex;
+      border: 1px solid black;
+      border-radius: 3px;
+      border: none;
+      height: 30px;
+      width: 30px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+      background-color: rgb(9, 133, 118);
+      color: white;     
+      gap: 20px;
+   }
 
-.search_for_items input {
-    border: 1px solid rgb(220, 220, 220);
-    position: relative;
-    left: 100px;
-}
+   .list_2:hover {
+    list-style: none;
+      display: inline-flex;
+      border: 1px solid black;
+      border-radius: 3px;
+      border: none;
+      height: 30px;
+      width: 30px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+      background-color: rgb(9, 133, 118);
+      color: white;
+      gap: 20px;
+   }
 
-.home-items li {
-    font-size: 20px;
-    margin: 20px;
-    display: inline-flex;
-}
+   .list_3:hover {
+    list-style: none;
+      display: inline-flex;
+      border: 1px solid black;
+      border-radius: 3px;
+      border: none;
+      height: 30px;
+      width: 30px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+      background-color: rgb(9, 133, 118);
+      color: white;
+      gap: 20px;
+   }
 
-.part2 {
-    display: flex;
-}
+   .list_4:hover {
+    list-style: none;
+      display: inline-flex;
+      border: 1px solid black;
+      border-radius: 3px;
+      border: none;
+      height: 30px;
+      width: 30px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+      background-color: rgb(9, 133, 118);
+      color: white;
+      gap: 20px;
+   }
 
-.part2 img {
-    height: 30px;
-    width: 30px;
-    position: relative;
-    left: 50px;
-    top: 6px;
-}
+  .small_cart_icon {
+      border: 1px solid lightgreen;
+      border-radius: 50%;
+      background-color: rgb(234, 255, 234);
+      height: 20px;
+      width: 20px;
+      padding: 10px;
+      position: relative;
+      bottom: 80px;
+      left: 230px;
+  }
 
-.icons {
-    display: flex;
-    gap: 10px;
-    height: 30px;
-    width: 30px;
-    position: relative;
-    left: 25px;
-}
+  .small_cart_icon img {
+      position: absolute;
+      bottom: 11px;
+      height: 20px;
+      width: 20px;
+  }
 
-.maincards {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    align-items: center;
+  .bg_images {
+      display: flex;
+      border: 1px solid;
+      border: none;
+      height: auto;
+      width: 100%;
+      margin: 40px 0;
+  }
 
-}
-
-.card1 {
-    border: 1px solid black;
-    border: none;
-    height: 400px;
-    width: 750px;
-    font-size: x-large;
-    margin: 60px 0;
-}
-
-.card1 span {
-    font-size: 100px;
-    color: rgb(9, 133, 118);
-}
-
-.picture {
-    border: 1px solid black;
-    border: none;
-    height: 400px;
-    width: 750px;
-    background-size: cover;
-    margin: 60px 0;
-}
-
-.card1 button {
-    height: 40px;
-    width: 100px;
-    border: 2px solid rgb(9, 133, 118);
-    border-radius: 3px;
-    background-color: rgb(9, 133, 118);
-    color: white;
-}
-
-.card1 button:hover {
-    border: 2px solid rgb(9, 133, 118);
-    border-radius: 3px;
-    background-color: white;
-    color: rgb(9, 133, 118);
-}
-
-.popular_Categories {
-    margin: 40px 0;
-    display: flex;
-    border: 1px solid black;
-    border: none;
-    height: 262px;
-    width: 100%;
-
-}
-
-.small_cards {
-    border-radius: 15px;
-    border: 1px solid lightgreen;
-    height: 260px;
-    width: 220px;
-    padding: 5px;
-    margin: 0 10px;
-    justify-content: space-evenly;
-
-}
-
-.small_cards img {
-    border-radius: 15px;
-    padding: 5px;
-    height: 200px;
-    width: 200px;
-}
-
-.small_cards p {
-    text-align: center;
-}
-
-.featured_buttons button {
-    border: 1px solid;
-    border: none;
-    border-radius: 3px;
-    color: black;
-    font-size: 18px;
-    height: 50px;
-    width: 120px;
-}
-
-.featured_buttons button:hover {
-    border: 1px solid bisque;
-    background-color: bisque;
-    border-radius: 3px;
-    color: rgb(9, 133, 118);
-    font-size: 18px;
-    height: 50px;
-    width: 120px;
-}
-
-.clothing_cards {
-    margin: 10px 0;
-    display: flex;
-    flex-wrap: wrap;
-    border: 1px solid black;
-    border: none;
-    width: 100%;
-    height: auto;
-}
-
-.clothing_cards_2 {
-    margin: 10px 0;
-    display: flex;
-    flex-wrap: wrap;
-    border: 1px solid black;
-    border: none;
-    width: 100%;
-    height: auto;
-}
-
-
-.products {
-    border: 1px solid lightgreen;
-    border-radius: 13px;
-    height: 400px;
-    width: 294px;
-    padding: 20px;
-    margin: 10px 10px;
-}
-
-.products2 {
-    border: 1px solid lightgreen;
-    border-radius: 13px;
-    height: 400px;
-    width: 294px;
-    padding: 20px;
-    margin: 20px 20px;
-}
-
-.img-1 {
-    background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-1-2.jpg);
-    height: 250px;
-    padding: 5px;
-    background-size: 100% 100%;
-    border-radius: 10px;
-}
-
-.products:hover .img-1 {
-    background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-1-2.jpg);
-    transition: all 2s linear;
-}
-
-.img-2 {
-    background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-2-1.jpg);
-    height: 250px;
-    padding: 5px;
-    background-size: 100% 100%;
-    border-radius: 10px;
-}
-
-.products:hover .img-2 {
-    background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-2-2.jpg);
-    transition: all 2s linear;
-}
-
-.img-3 {
-    background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-3-1.jpg);
-    height: 250px;
-    padding: 5px;
-    background-size: 100% 100%;
-    border-radius: 10px;
-}
-
-.products:hover .img-3 {
-    background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-3-2.jpg);
-    transition: all 2s linear;
-}
-
-.img-4 {
-    background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-4-1.jpg);
-    height: 250px;
-    padding: 5px;
-    background-size: 100% 100%;
-    border-radius: 10px;
-}
-
-.products:hover .img-4 {
-    background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-4-2.jpg);
-    transition: all 2s linear;
-}
-
-.img-5 {
-    background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-5-1.jpg);
-    height: 250px;
-    padding: 5px;
-    background-size: 100% 100%;
-    border-radius: 10px;
-}
-
-.products:hover .img-5 {
-    background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-5-2.jpg);
-    transition: all 2s linear;
-}
-
-.img-6 {
-    background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-6-1.jpg);
-    height: 250px;
-    padding: 5px;
-    background-size: 100% 100%;
-    border-radius: 10px;
-}
-
-.products:hover .img-6 {
-    background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-6-2.jpg);
-    transition: all 2s linear;
-}
-
-.img-7 {
-    background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-7-1.jpg);
-    height: 250px;
-    padding: 5px;
-    background-size: 100% 100%;
-    border-radius: 10px;
-}
-
-.products:hover .img-7 {
-    background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-7-2.jpg);
-    transition: all 2s linear;
-}
-
-.img-8 {
-    background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-8-1.jpg);
-    height: 250px;
-    padding: 5px;
-    background-size: 100% 100%;
-    border-radius: 10px;
-}
-
-.products:hover .img-8 {
-    background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-8-2.jpg);
-    transition: all 2s linear;
-}
-
-.hot_Btn_1 button {
-    height: 25px;
-    width: 45px;
-    border-radius: 50px;
-    position: relative;
-    top: 10px;
-    margin: 0 10px;
-    background-color: rgb(252, 110, 157);
-    color: white;
-    border: none;
-}
-
-.hot_Btn_2 button {
-    height: 25px;
-    width: 45px;
-    border-radius: 50px;
-    position: relative;
-    top: 10px;
-    margin: 0 10px;
-    background-color: rgba(32, 172, 137, 0.6);
-    color: white;
-    border: none;
-}
-
-.hot_Btn_3 button {
-    height: 25px;
-    width: 45px;
-    border-radius: 50px;
-    position: relative;
-    top: 10px;
-    margin: 0 10px;
-    background-color: rgb(227, 146, 61);
-    color: white;
-    border: none;
-}
-
-.hot_Btn_4 button {
-    height: 25px;
-    width: 45px;
-    border-radius: 50px;
-    position: relative;
-    top: 10px;
-    margin: 0 10px;
-    background-color: rgba(63, 136, 225, 0.736);
-    color: white;
-    border: none;
-}
-
-.hot_Btn_5 button {
-    height: 25px;
-    width: 45px;
-    border-radius: 50px;
-    position: relative;
-    top: 10px;
-    margin: 0 10px;
-    background-color: rgba(63, 136, 225, 0.736);
-    color: white;
-    border: none;
-}
-
-.hot_Btn_6 button {
-    height: 25px;
-    width: 45px;
-    border-radius: 50px;
-    position: relative;
-    top: 10px;
-    margin: 0 10px;
-    background-color: rgba(63, 136, 225, 0.736);
-    color: white;
-    border: none;
-}
-
-.hot_Btn_7 button {
-    height: 25px;
-    width: 45px;
-    border-radius: 50px;
-    position: relative;
-    top: 10px;
-    margin: 0 10px;
-    background-color: rgba(32, 172, 137, 0.6);
-    color: white;
-    border: none;
-}
-
-.small_cart_icon {
-    border: 1px solid lightgreen;
-    border-radius: 50%;
-    background-color: rgb(234, 255, 234);
-    height: 20px;
-    width: 20px;
-    padding: 10px;
-    position: relative;
-    bottom: 80px;
-    left: 230px;
-}
-
-.small_cart_icon img {
-    position: absolute;
-    bottom: 11px;
-    height: 20px;
-    width: 20px;
-}
-
-.bg_images {
-    display: flex;
-    border: 1px solid;
-    border: none;
-    height: auto;
-    width: 100%;
-    margin: 40px 0;
-}
-
-.bg_img_1 {
-    /* background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ deals-1.png);
+  .bg_img_1 {
+      /* background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ deals-1.png);
     background-repeat: no-repeat;
     height: 440px;
     width: 700px;
     padding: 20px; */
-    background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ deals-1.jpg);
-    background-repeat: no-repeat;
-    height: 440px;
-    width: 700px;
-    padding: 20px;
-}
+      background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ deals-1.jpg);
+      background-repeat: no-repeat;
+      height: 440px;
+      width: 700px;
+      padding: 20px;
+  }
 
-.bg_img_1 button {
-    height: 40px;
-    width: 100px;
-    border: 2px solid rgb(9, 133, 118);
-    border-radius: 3px;
-    background-color: rgb(230, 247, 245);
-    color: rgb(9, 133, 118);
+  .bg_img_1 button {
+      height: 40px;
+      width: 100px;
+      border: 2px solid rgb(9, 133, 118);
+      border-radius: 3px;
+      background-color: rgb(230, 247, 245);
+      color: rgb(9, 133, 118);
 
-}
+  }
 
-.bg_img_1 button:hover {
-    border: 2px solid rgb(9, 133, 118);
-    border-radius: 3px;
-    background-color: rgb(9, 133, 118);
-    color: white;
-}
+  .bg_img_1 button:hover {
+      border: 2px solid rgb(9, 133, 118);
+      border-radius: 3px;
+      background-color: rgb(9, 133, 118);
+      color: white;
+  }
 
-.bg_img_2 {
-    background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ deals-2.png);
-    background-repeat: no-repeat;
-    height: 440px;
-    width: 700px;
-    padding: 20px;
-}
+  .bg_img_2 {
+      background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ deals-2.png);
+      background-repeat: no-repeat;
+      height: 440px;
+      width: 700px;
+      padding: 20px;
+  }
 
-.bg_img_2 button {
-    height: 40px;
-    width: 100px;
-    border: 2px solid rgb(9, 133, 118);
-    border-radius: 3px;
-    background-color: rgb(230, 247, 245);
-    color: rgb(9, 133, 118);
+  .bg_img_2 button {
+      height: 40px;
+      width: 100px;
+      border: 2px solid rgb(9, 133, 118);
+      border-radius: 3px;
+      background-color: rgb(230, 247, 245);
+      color: rgb(9, 133, 118);
 
-}
+  }
 
-.bg_img_2 button:hover {
-    border: 2px solid rgb(9, 133, 118);
-    border-radius: 3px;
-    background-color: rgb(9, 133, 118);
-    color: white;
-}
+  .bg_img_2 button:hover {
+      border: 2px solid rgb(9, 133, 118);
+      border-radius: 3px;
+      background-color: rgb(9, 133, 118);
+      color: white;
+  }
 
-.timer li {
-    display: inline-flex;
-    background-color: rgb(9, 133, 118);
-    color: white;
-    list-style: none;
-    padding: 0%;
-    border: 1px solid black;
-    border: none;
-    border-radius: 3px;
-    height: 50px;
-    width: 50px;
-    align-items: center;
-    justify-content: center;
-}
+  .timer li {
+      display: inline-flex;
+      background-color: rgb(9, 133, 118);
+      color: white;
+      list-style: none;
+      padding: 0%;
+      border: 1px solid black;
+      border: none;
+      border-radius: 3px;
+      height: 50px;
+      width: 50px;
+      align-items: center;
+      justify-content: center;
+  }
 
-.timer_para {
-    display: flex;
-    gap: 33px;
-}
+  .timer_para {
+      display: flex;
+      gap: 33px;
+  }
 
-.showcase_images img {
-    border: 1px solid black;
-    border: none;
-    height: 100px;
-    width: 100px;
-    margin: 20px 0;
-}
+  .showcase_images img {
+      border: 1px solid black;
+      border: none;
+      height: 100px;
+      width: 100px;
+      margin: 20px 0;
+  }
 
-.showcase_images {
-    display: flex;
-}
+  .showcase_images {
+      display: flex;
+  }
 
-.showcase_images p {
-    display: flex;
+  .showcase_images p {
+      display: flex;
 
-}
+  }
 
-.outlets_1 {
-    border: 1px solid black;
-    border: none;
-    margin: 0 15px;
-}
+  .outlets_1 {
+      border: 1px solid black;
+      border: none;
+      margin: 0 15px;
+  }
 
-.outlets_2 {
-    border: 1px solid black;
-    border: none;
-    margin: 0 15px;
-}
+  .outlets_2 {
+      border: 1px solid black;
+      border: none;
+      margin: 0 15px;
+  }
 
-.outlets_3 {
-    border: 1px solid black;
-    border: none;
-    margin: 0 15px;
-}
+  .outlets_3 {
+      border: 1px solid black;
+      border: none;
+      margin: 0 15px;
+  }
 
-.outlets_4 {
-    border: 1px solid black;
-    border: none;
-    margin: 0 15px;
-}
+  .outlets_4 {
+      border: 1px solid black;
+      border: none;
+      margin: 0 15px;
+  }
 
-.oulets_cards {
-    display: flex;
-    margin: 30px 0;
-}
+  .oulets_cards {
+      display: flex;
+      margin: 30px 0;
+  }
 
-.outlet_para p {
-    display: inline-flex;
-    margin: 20px 10px;
-    padding: 0%;
-}
+  .outlet_para p {
+      display: inline-flex;
+      margin: 20px 10px;
+      padding: 0%;
+  }
 
-.email_details {
-    border: 1px solid black;
-    border: none;
-    height: 60px;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    padding: 30px 0;
-    background-color: rgb(132, 189, 182);
-}
+  .email_details {
+      border: 1px solid black;
+      border: none;
+      height: 60px;
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      text-align: center;
+      padding: 30px 0;
+      background-color: rgb(132, 189, 182);
+  }
 
-.email_details img {
-    height: 50px;
-    width: 50px;
-}
+  .email_details img {
+      height: 50px;
+      width: 50px;
+  }
 
-input {
-    padding: 0 10px;
-    border: 1px solid black;
-    border-radius: 5px;
-    border: none;
-    height: 40px;
-    width: 400px;
-    font-size: 16px;
-    position: relative;
-    left: 134px;
-}
+  .oulet_input input {
+      padding: 0 10px;
+      border: 1px solid black;
+      border-radius: 5px;
+      border: none;
+      height: 40px;
+      width: 400px;
+      font-size: 16px;
+      position: relative;
+      left: 100px;
+  }
 
-.email_details button {
-    height: 40px;
-    width: 120px;
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    margin: 0 20px;
-    position: relative;
-    left: 50px;
-}
+  .email_details button {
+      height: 40px;
+      width: 120px;
+      background-color: black;
+      color: white;
+      border-radius: 5px;
+      margin: 0 20px;
+      position: relative;
+      left: 80px;
+  }
 
-.footer {
-    margin: 0 40px;
-}
+  .footer {
+      margin: 0 40px;
+  }
 
-.footer_area {
-    border: 1px solid black;
-    border: none;
-    justify-content: space-between;
-    display: flex;
-    width: 100%;
-    height: auto;
-    padding: 40px 0;
-}
+  .footer_area {
+      border: 1px solid black;
+      border: none;
+      justify-content: space-between;
+      display: flex;
+      width: 100%;
+      height: auto;
+      padding: 40px 0;
+  }
 
-.footer_part_1 img {
-    height: 100px;
-    width: 100px;
-}
+  .footer_part_1 img {
+      height: 100px;
+      width: 100px;
+  }
 
-.footer_part_1 p:hover {
-    position: static;
-    color: lightgreen;
-    margin: 0 10px;
-    transition: all 1s linear;
-}
+  .footer_part_1 p:hover {
+      position: static;
+      color: rgb(232, 175, 123);
+      margin: 0 10px;
+      transition: all 1s linear;
+  }
 
-.footer_part_2 p:hover {
-    position: static;
-    color: lightgreen;
-    margin: 0 10px;
-    transition: all 1s linear;
-}
+  .footer_part_2 p:hover {
+      color: rgb(232, 175, 123);
+      margin: 0 10px;
+      transition: all 1s linear;
+  }
 
-.footer_part_3 p:hover {
-    position: static;
-    color: lightgreen;
-    margin: 0 10px;
-    transition: all 1s linear;
-}
+  .footer_part_3 p:hover {
+      color: rgb(232, 175, 123);
+      margin: 0 10px;
+      transition: all 1s linear;
+  }
 
-.f_icons img {
-    height: 30px;
-    width: 30px;
-}
-.f_icons img:hover{
-    height: 30px;
-    width: 30px;
-    transform: rotate(360deg);
-    transition: all 1s linear;
-}
+  .f_icons img {
+      height: 30px;
+      width: 30px;
+  }
 
-.designer_name {
-    display: flex;
-    justify-content: space-between;
-}
+  .f_icons img:hover {
+      height: 30px;
+      width: 30px;
+      transform: rotate(360deg);
+      /* transform: rotate(-360deg); */
+      transition: all 1s linear;
+  }
 
- /* home page style 'ENDS' here */
+  .designer_name {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  /* home page style 'ENDS' here */
 
 
   /* login page style 'STARTS' here */
 
-  .login_page{
-    display: flex;
-    margin: 20px 20px;
-  }
-  .login_form{
-    border: 1px solid rgb(223, 216, 216);
-    border-radius: 3px;
-    height: 250px;
-    width: 600px;
-    padding: 30px;
+  .login_page {
+      display: flex;
+      margin: 20px 0;
+      justify-content: center;
+      gap: 30px;
   }
 
-  .login_form input{
-    border: 1px solid gray;
-    height: 40px;
-    padding:0 20px;
-  }
-  .login_form label{
-    padding: 0%;
-    margin: 0%;
-    align-items: center;
-  }
-  .login_form button{
-    border: 1px solid black;
-    border: none;
-    border-radius: 3px;
-    height: 40px;
-    width: 100px;
-    background-color:rgb(9, 133, 118);
-    color:white;
-    font-size: 15px;
-  }
-  .login_form button:hover{
-    border: 2px solid  rgb(9, 133, 118) ;
-    border-radius: 3px;
-    height: 40px;
-    width: 100px;
-    background-color:rgb(245, 241, 241);
-    color: rgb(9, 133, 118);
-    font-size: 15px;
+  .login_form {
+      border: 1px solid rgb(223, 216, 216);
+      border-radius: 3px;
+      height: 250px;
+      width: 600px;
+      padding: 10px;
+      margin-top: 20px;
   }
 
-  .create_account{
-    border: 1px solid rgb(223, 216, 216);
-    border-radius: 3px;
-    height: 350px;
-    width: 600px;
-    padding: 30px;
+  .login_form input {
+      border: 1px solid gray;
+      border-radius: 3px;
+      height: 40px;
+      width: 500px;
+      padding: 0 10px;
   }
 
-  .create_account input{
-    border: 1px solid gray;
-    height: 40px;
-    padding:0 20px;
+  .login_form button {
+      border: 1px solid black;
+      border: none;
+      border-radius: 3px;
+      height: 40px;
+      width: 100px;
+      background-color: rgb(9, 133, 118);
+      color: white;
+      font-size: 15px;
   }
-  .create_account label{
-    padding: 0%;
-    margin: 0%;
-    align-items: center;
+
+  .login_form button:hover {
+      border: 2px solid rgb(9, 133, 118);
+      border-radius: 3px;
+      height: 40px;
+      width: 100px;
+      background-color: rgb(245, 241, 241);
+      color: rgb(9, 133, 118);
+      font-size: 15px;
   }
-  .create_account button{
-    border: 1px solid black;
-    border: none;
-    border-radius: 3px;
-    height: 40px;
-    width: 150px;
-    background-color:rgb(9, 133, 118);
-    color:white;
-    font-size: 15px;
+
+  .create_account {
+      border: 1px solid rgb(223, 216, 216);
+      border-radius: 3px;
+      height: 350px;
+      width: 600px;
+      padding: 10px;
+      margin-top: 20px;
   }
-  .create_account button:hover{
-    border: 2px solid  rgb(9, 133, 118) ;
-    border-radius: 3px;
-    height: 40px;
-    width: 150px;
-    background-color:rgb(245, 241, 241);
-    color: rgb(9, 133, 118);
-    font-size: 15px;
+
+  .create_account input {
+      border: 1px solid gray;
+      height: 40px;
+      width: 500px;
+      padding: 0 10px;
+      border-radius: 3px;
   }
+
+  .create_account button {
+      border: 1px solid black;
+      border: none;
+      border-radius: 3px;
+      height: 40px;
+      width: 150px;
+      background-color: rgb(9, 133, 118);
+      color: white;
+      font-size: 15px;
+  }
+
+  .create_account button:hover {
+      border: 2px solid rgb(9, 133, 118);
+      border-radius: 3px;
+      height: 40px;
+      width: 150px;
+      background-color: rgb(245, 241, 241);
+      color: rgb(9, 133, 118);
+      font-size: 15px;
+  }
+
+  /* login page style 'ENDS' here */
+
+
+  /* y account style 'STARTS' here */
+  .account_page {
+      display: flex;
+      margin: 40px;
+  }
+
+  .myaccount_list li {
+      border: 1px solid rgb(231, 225, 225);
+      list-style: none;
+      height: 20px;
+      width: 400px;
+      font-size: 17px;
+      padding: 20px;
+      margin: 0 10px;
+  }
+
+  .dashboard {
+      background-color: rgb(9, 133, 118);
+      color: white;
+  }
+
+  .hello_rosie li {
+      border: 1px solid rgb(231, 225, 225);
+      height: 30px;
+      width: 880px;
+      list-style: none;
+      padding: 30px 10px;
+      margin: 0 10px;
+      justify-content: center;
+      font-size: 19px;
+  }
+
+  .hello_Heading {
+      background-color: rgb(243, 239, 239);
+  }
+
+  /* my account page style 'ENDS' here */

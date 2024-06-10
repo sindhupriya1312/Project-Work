@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login page</title>
+    <title>my account</title>
 </head>
 <link rel="stylesheet" href="../CSS files/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 <body>
-
     <div class="head_line">
         <div class="head_line_1">
             <p>(+01)-2345-6789</p>
@@ -35,8 +35,8 @@
 
             <div class="part2">
                 <div class="search_for_items">
-                    <label for="search for items" id="search for items"></label>
-                    <input type="text" id="search for items" placeholder="Search for items..."
+                    <label for="search for items"></label>
+                    <input type="text" placeholder="Search for items..." id="search for items"
                         style="height: 40px; width: 450px; font-size: 16px; padding-left: 20px;">
                 </div>
 
@@ -48,48 +48,27 @@
             </div>
         </nav>
 
-        <main class="login_page">
+        <main class="account_page">
+            <div class="myaccount_list">
 
-        <div class="login_form">
-            <h2>Login</h2>
+                <li class="dashboard"><i class="fa-solid fa-sliders"></i></i> DashBoard</li>
+                <li><i class="fa-solid fa-lock"></i></i> Orders</li>
+                <li><i class="fa-solid fa-user"></i> Update Orders</li>
+                <li><i class="fa-solid fa-location-dot"></i></i> My address</li>
+                <li><i class="fa-solid fa-sliders"></i> Change Password</li>
+                <li><i class="fa-solid fa-arrow-right-from-bracket"></i></i> Logout</li>
 
-            <form action="#">
-               
-            <input type="text" id="your email" placeholder="Your Email"><br><br>
-               
-            <input type="text" id="password" placeholder="Your password"><br><br>
-            
-            <button>Login</button>
+            </div>
 
-            </form>
-
-        </div>
-
-
-        <div class="create_account">
-            <h2>Create an Account</h2>
-
-            <form action="#">
-
-                <input type="text" id="username" placeholder="Username"><br><br>
-
-                <input type="text" id="your email" placeholder="Your Email"><br><br>
-
-                <input type="text" id="password" placeholder="Your password"><br><br>
-
-                <input type="text" id="conform password" placeholder="Confirm password"><br><br>
-
-                <button>submit&Register</button>
-            </form>
-            
-        </div>
-    </main>
-
-
-
+            <div class="hello_rosie">
+                <li class="hello_Heading">Hello Rosie</li>
+                <li>From your account dashboard. You can easily check &
+                    view your recent order,manage your shipping and billing
+                    addressesand edit your password and account details.</li>
+            </div>
+        </main>
     </div>
-
-
+    
     <footer>
 
         <div class="email_details">
@@ -100,13 +79,11 @@
             <p>.....and receive $25 coupon for first shopping</p>
 
             <div class="oulet_input">
-
                 <label for="email"></label>
                 <input type="text" placeholder="Enter Your Email">
                 <button>Subscribe</button>
-                
             </div>
-            
+
 
         </div>
 
@@ -167,7 +144,6 @@
         </div>
 
     </footer>
-
 </body>
 
 </html>
