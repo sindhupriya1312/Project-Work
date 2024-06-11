@@ -220,7 +220,7 @@
 
   .products:hover .img-1 {
       background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-1-2.jpg);
-      transition: all 3s linear;
+      transition: all 1.5s linear;
   }
 
   .img-2 {
@@ -233,7 +233,7 @@
 
   .products:hover .img-2 {
       background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-2-2.jpg);
-      transition: all 3s linear;
+      transition: all 1.5s linear;
   }
 
   .img-3 {
@@ -246,7 +246,7 @@
 
   .products:hover .img-3 {
       background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-3-2.jpg);
-      transition: all 3s linear;
+      transition: all 1.5s linear;
   }
 
   .img-4 {
@@ -259,7 +259,7 @@
 
   .products:hover .img-4 {
       background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-4-2.jpg);
-      transition: all 3s linear;
+      transition: all 1.5s linear;
   }
 
   .img-5 {
@@ -272,7 +272,7 @@
 
   .products:hover .img-5 {
       background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-5-2.jpg);
-      transition: all 3s linear;
+      transition: all 1.5s linear;
   }
 
   .img-6 {
@@ -285,7 +285,7 @@
 
   .products:hover .img-6 {
       background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-6-2.jpg);
-      transition: all 3s linear;
+      transition: all 1.5s linear;
   }
 
   .img-7 {
@@ -298,7 +298,7 @@
 
   .products:hover .img-7 {
       background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-7-2.jpg);
-      transition: all 3s linear;
+      transition: all 1.5s linear;
   }
 
   .img-8 {
@@ -311,7 +311,7 @@
 
   .products:hover .img-8 {
       background-image: url(/Clothing\ Ecom/assets/images/Copy\ of\ product-8-2.jpg);
-      transition: all 3s linear;
+      transition: all 1.5s linear;
   }
 
   .img-9 {
@@ -324,7 +324,7 @@
 
   .products:hover .img-9 {
       background-image: url(../assets/images/Copy\ of\ product-9-2.jpg);
-      transition: all 3s linear;
+      transition: all 1.5s linear;
   }
 
   .img-10 {
@@ -337,7 +337,7 @@
 
   .products:hover .img-10 {
       background-image: url(../assets/images/Copy\ of\ product-10-2.jpg);
-      transition: all 3s linear;
+      transition: all 1.5s linear;
   }
 
   .img-11 {
@@ -350,7 +350,7 @@
 
   .products:hover .img-11 {
       background-image: url(../assets/images/Copy\ of\ product-11-2.jpg);
-      transition: all 3s linear;
+      transition: all 1.5s linear;
   }
 
   .img-12 {
@@ -363,7 +363,182 @@
 
   .products:hover .img-12 {
       background-image: url(../assets/images/Copy\ of\ product-12-2.jpg);
-      transition: all 3s linear;
+      transition: all 1.5s linear;
+  }
+
+  .tooltip i{
+      font-size: 16px;
+      opacity:0;
+      position: relative;
+      top: 90px;
+      left: 10px;
+      border: 1px solid black;
+      border-radius: 50%;
+      border: none;
+      height: 45px;
+      width: 45px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(9, 133, 118);
+  }
+  .tooltip{
+    display: inline-flex;
+    margin: 0 50px;
+  }
+
+  .products:hover .tooltip i {
+      font-size: 16px;
+      opacity: 1;
+      position: relative;
+      top: 90px;
+      left: 10px;
+      border: 1px solid black;
+      border-radius: 50%;
+      border: none;
+      height: 45px;
+      width: 45px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(9, 133, 118);
+  }
+
+  .tooltip_text {
+    opacity: 0;
+      display: inline-flex;
+      border: 1px solid black;
+      border: none;
+      border-radius: 3px;
+      height: 30px;
+      width: 60px;
+      position: relative;
+      top: 10px;
+      left:0px;
+      text-align: center;
+  }
+  .tooltip:hover .tooltip_text {
+    opacity: 1;
+    display: inline-flex;
+    border: 1px solid black;
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+    width: 60px;
+    position: relative;
+    top: 10px;
+    left:0px;
+    text-align: center;
+    background-color: rgb(9, 133, 118);
+}
+
+  .tooltip_text_3 {
+     opacity: 0;
+      display: inline-flex;
+      border: 1px solid black;
+      border-radius: 3px;
+      border: none;
+      height: 30px;
+      width: 60px;
+      position: relative;
+      top: 10px;
+      left: 0px;
+      text-align: center;
+  }
+
+  .tooltip:hover .tooltip_text_3 {
+    opacity: 1;
+    display: inline-flex;
+    border: 1px solid black;
+    border-radius: 3px;
+    border: none;
+    height: 30px;
+    width: 60px;
+    position: relative;
+    top: 10px;
+    left: 0px;
+    text-align: center;
+    background-color: rgb(9, 133, 118);
+}
+
+  .rhombus1 {
+    opacity: 0;
+      display: inline-flex;
+      border: 1px solid black;
+      border-left: none;
+      border-top:none ;
+      height: 10px;
+      width: 10px;
+      position: relative;
+      left: 27px;
+      bottom:12px;
+      transform: rotate(43deg);
+  }
+
+  .tooltip:hover .rhombus1 {
+    opacity: 1;
+    display: inline-flex;
+    border: 1px solid black;
+    border: none;
+    height: 10px;
+    width: 10px;
+    position: relative;
+    left: 27px;
+    bottom:12px;
+    transform: rotate(43deg);
+    background-color: rgb(9, 133, 118);
+}
+
+  .rhombus2 {
+    opacity: 0;
+      display: inline-flex;
+      border: 1px solid black;
+      border: none;
+      height: 10px;
+      width: 10px;
+      position: relative;
+      left: 27px;
+      bottom:12px;
+      transform: rotate(44deg);
+  }
+  .tooltip:hover .rhombus2 {
+    opacity: 1;
+      display: inline-flex;
+      border: 1px solid black;
+      border: none;
+      height: 10px;
+      width: 10px;
+      position: relative;
+      left: 27px;
+      bottom:12px;
+      transform: rotate(44deg);
+      background-color: rgb(9, 133, 118);
+  }
+
+  .rhombus3 {
+    opacity: 0;
+      display: inline-flex;
+      border: 1px solid black;
+      border: none;
+      height: 10px;
+      width: 10px;
+      position: relative;
+      left: 27px;
+      bottom:12px;
+      transform: rotate(43deg);
+  }
+  .tooltip:hover .rhombus3 {
+    opacity: 1;
+      display: inline-flex;
+      border: 1px solid black;
+      border: none;
+      height: 10px;
+      width: 10px;
+      position: relative;
+      left: 27px;
+      bottom:12px;
+      transform: rotate(43deg);
+      background-color: rgb(9, 133, 118);
   }
 
   .hot_Btn_1 button {
@@ -485,10 +660,11 @@
       color: white;
       border: none;
   }
-  .more_options{
-    align-items: center;
-    justify-content: center;
-    margin:0 600px ;
+
+  .more_options {
+      align-items: center;
+      justify-content: center;
+      margin: 0 600px;
   }
 
   .more_options li {
@@ -502,29 +678,13 @@
       align-items: center;
       justify-content: center;
       margin-bottom: 30px;
-      background-color:white;
-      color:black;
+      background-color: white;
+      color: black;
       gap: 20px;
   }
-   
-   .list_1:hover {
-    list-style: none;
-      display: inline-flex;
-      border: 1px solid black;
-      border-radius: 3px;
-      border: none;
-      height: 30px;
-      width: 30px;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 30px;
-      background-color: rgb(9, 133, 118);
-      color: white;     
-      gap: 20px;
-   }
 
-   .list_2:hover {
-    list-style: none;
+  .list_1:hover {
+      list-style: none;
       display: inline-flex;
       border: 1px solid black;
       border-radius: 3px;
@@ -537,10 +697,10 @@
       background-color: rgb(9, 133, 118);
       color: white;
       gap: 20px;
-   }
+  }
 
-   .list_3:hover {
-    list-style: none;
+  .list_2:hover {
+      list-style: none;
       display: inline-flex;
       border: 1px solid black;
       border-radius: 3px;
@@ -553,10 +713,10 @@
       background-color: rgb(9, 133, 118);
       color: white;
       gap: 20px;
-   }
+  }
 
-   .list_4:hover {
-    list-style: none;
+  .list_3:hover {
+      list-style: none;
       display: inline-flex;
       border: 1px solid black;
       border-radius: 3px;
@@ -569,7 +729,23 @@
       background-color: rgb(9, 133, 118);
       color: white;
       gap: 20px;
-   }
+  }
+
+  .list_4:hover {
+      list-style: none;
+      display: inline-flex;
+      border: 1px solid black;
+      border-radius: 3px;
+      border: none;
+      height: 30px;
+      width: 30px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+      background-color: rgb(9, 133, 118);
+      color: white;
+      gap: 20px;
+  }
 
   .small_cart_icon {
       border: 1px solid lightgreen;
@@ -949,24 +1125,45 @@
 
   /* compare page style 'STARTS' here */
 
-  td{
-    border: 1px solid rgb(245, 226, 202);
-    padding: 10px;
-    font-size: 20px;
+  td {
+      border: 1px solid rgb(245, 226, 202);
+      padding: 10px;
+      font-size: 16px;
+      text-align: center;
   }
 
-  .compare_table img{
-    height: 350px;
-    width: 390px;
-    padding: 5px;
+  .compare_table img {
+      height: 350px;
+      width: 390px;
+      padding: 5px;
   }
-  .compare_table button{
+
+  .compare_table button {
+      border: 1px solid black;
+      border: none;
+      border-radius: 3px;
+      background-color: rgb(9, 133, 118);
+      color: white;
+      height: 35px;
+      width: 100px;
+  }
+  .colors td li{
     border: 1px solid black;
     border: none;
-    border-radius: 3px;
-    background-color: rgb(9, 133, 118);
-    color: white;
-    height: 35px;
-    width: 100px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    list-style: none;
+    display: inline-flex;
   }
+  #circle1{
+    background-color: rgb(213, 213, 107);
+  }
+  #circle2{
+    background-color: rgb(249, 78, 52);
+  }
+  #circle3{
+    background-color: yellow;
+  }
+
   /* compare page style 'ENDS' here */
