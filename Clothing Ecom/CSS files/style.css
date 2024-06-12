@@ -72,6 +72,15 @@
       left: 25px;
   }
 
+  .search_bar {
+      height: 60px;
+      width: 100%;
+      background-color: rgb(209, 206, 206);
+  }
+  .search_bar p{
+    padding: 20px 40px;
+  }
+
   .maincards {
       display: flex;
       justify-content: space-evenly;
@@ -366,9 +375,9 @@
       transition: all 1.5s linear;
   }
 
-  .tooltip i{
+  .tooltip i {
       font-size: 16px;
-      opacity:0;
+      opacity: 0;
       position: relative;
       top: 90px;
       left: 10px;
@@ -380,18 +389,19 @@
       display: inline-flex;
       justify-content: center;
       align-items: center;
-      background-color: rgb(9, 133, 118);
-  }
-  .tooltip{
-    display: inline-flex;
-    margin: 0 50px;
+      background-color: rgb(195, 231, 227);
   }
 
-  .products:hover .tooltip i {
+  .tooltip {
+      display: inline-flex;
+      margin: 0 50px;
+  }
+
+  .products .img-1:hover .tooltip i{
       font-size: 16px;
       opacity: 1;
       position: relative;
-      top: 90px;
+      top: 95px;
       left: 10px;
       border: 1px solid black;
       border-radius: 50%;
@@ -401,11 +411,219 @@
       display: inline-flex;
       justify-content: center;
       align-items: center;
-      background-color: rgb(9, 133, 118);
+      background-color: rgb(195, 231, 227);
+      cursor: pointer;
   }
+  .products .img-2:hover .tooltip i{
+    font-size: 16px;
+    opacity: 1;
+    position: relative;
+    top: 95px;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 231, 227);
+    cursor: pointer;
+}
+.products .img-3:hover .tooltip i{
+    font-size: 16px;
+    opacity: 1;
+    position: relative;
+    top: 95px;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 231, 227);
+    cursor: pointer;
+}
 
+.products .img-4:hover .tooltip i{
+    font-size: 16px;
+    opacity: 1;
+    position: relative;
+    top: 95px;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 231, 227);
+    cursor: pointer;
+}
+.products .img-5:hover .tooltip i{
+    font-size: 16px;
+    opacity: 1;
+    position: relative;
+    top: 95px;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 231, 227);
+    cursor: pointer;
+}
+.products .img-6:hover .tooltip i{
+    font-size: 16px;
+    opacity: 1;
+    position: relative;
+    top: 95px;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 231, 227);
+    cursor: pointer;
+}
+
+.products .img-7:hover .tooltip i{
+    font-size: 16px;
+    opacity: 1;
+    position: relative;
+    top: 95px;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 231, 227);
+    cursor: pointer;
+}
+.products .img-8:hover .tooltip i{
+    font-size: 16px;
+    opacity: 1;
+    position: relative;
+    top: 95px;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 231, 227);
+    cursor: pointer;
+}
+.products .img-9:hover .tooltip i{
+    font-size: 16px;
+    opacity: 1;
+    position: relative;
+    top: 95px;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 231, 227);
+    cursor: pointer;
+}
+.products .img-10:hover .tooltip i{
+    font-size: 16px;
+    opacity: 1;
+    position: relative;
+    top: 95px;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 231, 227);
+    cursor: pointer;
+}
+.products .img-11:hover .tooltip i{
+    font-size: 16px;
+    opacity: 1;
+    position: relative;
+    top: 95px;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 231, 227);
+    cursor: pointer;
+}
+.products .img-12:hover .tooltip i{
+    font-size: 16px;
+    opacity: 1;
+    position: relative;
+    top: 95px;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(9, 133, 118); */
+    background-color: rgb(195, 231, 227);
+    cursor: pointer;
+}
+
+.img_1 .tooltip:hover i{
+    font-size: 16px;
+    opacity: 1;
+    position: relative;
+    top: 95px;
+    left: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 133, 118);
+    /* background-color: rgb(195, 231, 227); */
+}
   .tooltip_text {
-    opacity: 0;
+      opacity: 0;
       display: inline-flex;
       border: 1px solid black;
       border: none;
@@ -414,26 +632,30 @@
       width: 60px;
       position: relative;
       top: 10px;
-      left:0px;
+      left: 0px;
       text-align: center;
+      cursor: pointer;
   }
+
   .tooltip:hover .tooltip_text {
-    opacity: 1;
-    display: inline-flex;
-    border: 1px solid black;
-    border: none;
-    border-radius: 3px;
-    height: 30px;
-    width: 60px;
-    position: relative;
-    top: 10px;
-    left:0px;
-    text-align: center;
-    background-color: rgb(9, 133, 118);
-}
+      opacity: 1;
+      display: inline-flex;
+      border: 1px solid black;
+      border: none;
+      border-radius: 3px;
+      height: 30px;
+      width: 60px;
+      position: relative;
+      top: 10px;
+      left: 0px;
+      text-align: center;
+      background-color: rgb(9, 133, 118);
+      color: white;
+      cursor: pointer;
+  }
 
   .tooltip_text_3 {
-     opacity: 0;
+      opacity: 0;
       display: inline-flex;
       border: 1px solid black;
       border-radius: 3px;
@@ -447,50 +669,52 @@
   }
 
   .tooltip:hover .tooltip_text_3 {
-    opacity: 1;
-    display: inline-flex;
-    border: 1px solid black;
-    border-radius: 3px;
-    border: none;
-    height: 30px;
-    width: 60px;
-    position: relative;
-    top: 10px;
-    left: 0px;
-    text-align: center;
-    background-color: rgb(9, 133, 118);
-}
+      opacity: 1;
+      display: inline-flex;
+      border: 1px solid black;
+      border-radius: 3px;
+      border: none;
+      height: 30px;
+      width: 60px;
+      position: relative;
+      top: 10px;
+      left: 0px;
+      text-align: center;
+      background-color: rgb(9, 133, 118);
+      color: white;
+      cursor: pointer;
+  }
 
   .rhombus1 {
-    opacity: 0;
+      opacity: 0;
       display: inline-flex;
       border: 1px solid black;
       border-left: none;
-      border-top:none ;
+      border-top: none;
       height: 10px;
       width: 10px;
       position: relative;
       left: 27px;
-      bottom:12px;
+      bottom: 12px;
       transform: rotate(43deg);
   }
 
   .tooltip:hover .rhombus1 {
-    opacity: 1;
-    display: inline-flex;
-    border: 1px solid black;
-    border: none;
-    height: 10px;
-    width: 10px;
-    position: relative;
-    left: 27px;
-    bottom:12px;
-    transform: rotate(43deg);
-    background-color: rgb(9, 133, 118);
-}
+      opacity: 1;
+      display: inline-flex;
+      border: 1px solid black;
+      border: none;
+      height: 10px;
+      width: 10px;
+      position: relative;
+      left: 27px;
+      bottom: 12px;
+      transform: rotate(43deg);
+      background-color: rgb(9, 133, 118);
+  }
 
   .rhombus2 {
-    opacity: 0;
+      opacity: 0;
       display: inline-flex;
       border: 1px solid black;
       border: none;
@@ -498,11 +722,12 @@
       width: 10px;
       position: relative;
       left: 27px;
-      bottom:12px;
+      bottom: 12px;
       transform: rotate(44deg);
   }
+
   .tooltip:hover .rhombus2 {
-    opacity: 1;
+      opacity: 1;
       display: inline-flex;
       border: 1px solid black;
       border: none;
@@ -510,13 +735,13 @@
       width: 10px;
       position: relative;
       left: 27px;
-      bottom:12px;
+      bottom: 12px;
       transform: rotate(44deg);
       background-color: rgb(9, 133, 118);
   }
 
   .rhombus3 {
-    opacity: 0;
+      opacity: 0;
       display: inline-flex;
       border: 1px solid black;
       border: none;
@@ -524,11 +749,12 @@
       width: 10px;
       position: relative;
       left: 27px;
-      bottom:12px;
+      bottom: 12px;
       transform: rotate(43deg);
   }
+
   .tooltip:hover .rhombus3 {
-    opacity: 1;
+      opacity: 1;
       display: inline-flex;
       border: 1px solid black;
       border: none;
@@ -536,7 +762,7 @@
       width: 10px;
       position: relative;
       left: 27px;
-      bottom:12px;
+      bottom: 12px;
       transform: rotate(43deg);
       background-color: rgb(9, 133, 118);
   }
@@ -758,6 +984,72 @@
       bottom: 80px;
       left: 230px;
   }
+  .small_cart_icon:hover {
+    border: 1px solid lightgreen;
+    border-radius: 50%;
+    background-color: rgb(9, 133, 118);
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    position: relative;
+    bottom: 80px;
+    left: 230px;
+}
+
+  .cart_tooltip_text{
+    opacity: 0;
+    border: 1px solid black;
+    border: none;
+    height: 25px;
+    width: 75px;
+    padding: 0 5px;
+    position:relative;
+    bottom: 65px;
+    right: 30px;
+    background-color: rgb(9, 133, 118);
+    color: white;
+  }
+  .small_cart_icon:hover .cart_tooltip_text{
+    opacity: 1;
+    border: 1px solid black;
+    border-radius: 3px;
+    border: none;
+    height: 25px;
+    width: 75px;
+    padding: 0 5px;
+    position:relative;
+    bottom: 65px;
+    right: 30px;
+    background-color: rgb(9, 133, 118);
+    color: white;
+  }
+
+.cart_rhombus{
+    opacity: 0;
+      display: inline-flex;
+      border: 1px solid black;
+      border: none;
+      height: 10px;
+      width: 10px;
+      position: relative;
+      left: 5px;
+      bottom: 103px;
+      transform: rotate(43deg);
+      background-color: rgb(9, 133, 118);
+}
+.small_cart_icon:hover .cart_rhombus{
+    opacity: 1;
+    display: inline-flex;
+    border: 1px solid black;
+    border: none;
+    height: 10px;
+    width: 10px;
+    position: relative;
+    left: 5px;
+    bottom: 103px;
+    transform: rotate(43deg);
+    background-color: rgb(9, 133, 118);
+}
 
   .small_cart_icon img {
       position: absolute;
@@ -956,24 +1248,35 @@
       height: 100px;
       width: 100px;
   }
-
+  .footer_part_1 {
+    border: 1px solid black;
+    border: none;
+    width: 450px;
+}
   .footer_part_1 p:hover {
-      position: static;
       color: rgb(232, 175, 123);
       margin: 0 10px;
-      transition: all 1s linear;
+      transition: all 0.5s linear;
   }
-
+  .footer_part_2 {
+    border: 1px solid black;
+    border: none;
+    width: 350px;
+}
   .footer_part_2 p:hover {
       color: rgb(232, 175, 123);
       margin: 0 10px;
-      transition: all 1s linear;
+      transition: all 0.5s linear;
   }
-
+.footer_part_3 {
+    border: 1px solid black;
+    border: none;
+    width: 300px;
+}
   .footer_part_3 p:hover {
       color: rgb(232, 175, 123);
       margin: 0 10px;
-      transition: all 1s linear;
+      transition: all 0.5s linear;
   }
 
   .f_icons img {
@@ -1126,10 +1429,16 @@
   /* compare page style 'STARTS' here */
 
   td {
-      border: 1px solid rgb(245, 226, 202);
+      border: 1px solid rgb(240, 204, 157);
       padding: 10px;
       font-size: 16px;
       text-align: center;
+  }
+  .compare_table{
+    border: 1px solid rgb(240, 204, 157);
+    height: 800px;
+    width: 1350px;
+    margin: 30px;
   }
 
   .compare_table img {
@@ -1147,23 +1456,27 @@
       height: 35px;
       width: 100px;
   }
-  .colors td li{
-    border: 1px solid black;
-    border: none;
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-    list-style: none;
-    display: inline-flex;
+
+  .colors td li {
+      border: 1px solid black;
+      border: none;
+      height: 25px;
+      width: 25px;
+      border-radius: 50%;
+      list-style: none;
+      display: inline-flex;
   }
-  #circle1{
-    background-color: rgb(213, 213, 107);
+
+  #circle1 {
+      background-color: rgb(213, 213, 107);
   }
-  #circle2{
-    background-color: rgb(249, 78, 52);
+
+  #circle2 {
+      background-color: rgb(249, 78, 52);
   }
-  #circle3{
-    background-color: yellow;
+
+  #circle3 {
+      background-color: yellow;
   }
 
   /* compare page style 'ENDS' here */
