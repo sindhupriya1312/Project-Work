@@ -63,14 +63,14 @@
       height: 130px;
       width: 150px;
       position: absolute;
-      left: 10px;
+      left: 20px;
       top: 60px;
   }
 
   .search_for_items input {
       border: 1px solid rgb(220, 220, 220);
       position: relative;
-      left: 100px;
+      left: 130px;
   }
 
   .home-items li {
@@ -93,7 +93,7 @@
       height: 30px;
       width: 30px;
       position: relative;
-      left: 50px;
+      left: 90px;
       top: 6px;
   }
 
@@ -233,8 +233,7 @@
       width: 100%;
       height: auto;
   }
-
-
+  
   .products {
       border: 1px solid lightgreen;
       border-radius: 13px;
@@ -492,7 +491,7 @@
       font-size: 16px;
       opacity: 0;
       position: relative;
-      top: 90px;
+      top: 95px;
       left: 10px;
       border: 1px solid black;
       border-radius: 50%;
@@ -544,23 +543,6 @@
     align-items: center;
     background-color: rgb(9, 133, 118);
     cursor: pointer;
-}
-
-.img_1 .tooltip:hover i{
-    font-size: 16px;
-    opacity: 1;
-    position: relative;
-    top: 95px;
-    left: 10px;
-    border: 1px solid black;
-    border-radius: 50%;
-    border: none;
-    height: 45px;
-    width: 45px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(9, 133, 118);
 }
 
   .seemore_text{
@@ -976,7 +958,7 @@
       border: none;
       height: 100px;
       width: 100px;
-      margin: 20px 0;
+      margin: 10px 0;
   }
 
   .showcase_images {
@@ -1019,8 +1001,9 @@
 
   .outlet_para p {
       display: inline-flex;
-      margin: 20px 10px;
-      padding: 0%;
+      margin: 8px 10px;
+      padding:0%;
+      justify-content: center;
   }
 
   .email_details {
